@@ -1,19 +1,8 @@
 ﻿using C_CourseCodeInterview.Base;
+using C_CourseCodeInterview.Models;
 
-namespace C_CourseCodeInterview.MultidimensionalArrays
+namespace C_CourseCodeInterview.LeetCode
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public class PalindromeLinkedList : IExecution
     {
         public string Name => "Practice Palindrome with LinkedList";

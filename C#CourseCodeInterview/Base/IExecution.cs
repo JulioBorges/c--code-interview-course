@@ -1,6 +1,4 @@
-﻿using C_CourseCodeInterview.MultidimensionalArrays;
-
-namespace C_CourseCodeInterview.Base
+﻿namespace C_CourseCodeInterview.Base
 {
     public interface IExecution
     {
