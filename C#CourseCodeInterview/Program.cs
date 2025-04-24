@@ -28,7 +28,9 @@ namespace C_CourseCodeInterview
                 //new LeetCode.BinaryTree.InOrderBinaryTree(),
                 //new LeetCode.BinaryTree.PostOrderBinaryTree(),
                 //new LeetCode.BinaryTree.InvertBinaryTree(),
-                new LeetCode.BinaryTree.BinaryTreeDiameter(),
+                //new LeetCode.BinaryTree.BinaryTreeDiameter(),
+                //new LeetCode.BinaryTree.MergeTwoBinaryTrees(),
+                new LeetCode.BinaryTree.BalancedBinaryTree(),
             ];
 
             RunPractices(leetCodeTraining);
