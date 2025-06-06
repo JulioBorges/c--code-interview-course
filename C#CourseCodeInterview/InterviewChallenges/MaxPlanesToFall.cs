@@ -22,7 +22,6 @@ namespace C_CourseCodeInterview.InterviewChallenges
         private static void TestCase(List<int> startHeight, List<int> descentRate, int shouldBe)
         {
             Console.WriteLine("=========================================");
-
             Console.WriteLine("Test case:");
             Console.WriteLine($"Start height: {string.Join(", ", startHeight)}");
             Console.WriteLine($"Descent rate: {string.Join(", ", descentRate)}");
