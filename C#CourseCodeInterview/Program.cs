@@ -10,7 +10,19 @@ namespace C_CourseCodeInterview
             Console.WriteLine();
 
             //MultiDimensionalArrays();
-            LeetCodeTraining();
+            //LeetCodeTraining();
+            InterviewChallengesTraining();
+        }
+
+        private static void InterviewChallengesTraining()
+        {
+            Console.WriteLine("GeeksFor Geeks Training");
+            Console.WriteLine();
+            IExecution[] interviewChallenges = [
+                new InterviewChallenges.MaxPlanesToFall(),
+            ];
+
+            RunPractices(interviewChallenges);
         }
 
         private static void LeetCodeTraining()
@@ -19,17 +31,17 @@ namespace C_CourseCodeInterview
             Console.WriteLine();
 
             IExecution[] leetCodeTraining = [
-                //new LeetCode.PalindromeLinkedList()
-                //new LeetCode.BestStockPrice(),
-                //new LeetCode.BinaryTree.MaximumDepthBinaryTree(),
-                //new LeetCode.BinaryTree.MinimumDepthBinaryTree(),
-                //new LeetCode.BinaryTree.SameBinaryTree(),
-                //new LeetCode.BinaryTree.PreOrderBinaryTree(),
-                //new LeetCode.BinaryTree.InOrderBinaryTree(),
-                //new LeetCode.BinaryTree.PostOrderBinaryTree(),
-                //new LeetCode.BinaryTree.InvertBinaryTree(),
-                //new LeetCode.BinaryTree.BinaryTreeDiameter(),
-                //new LeetCode.BinaryTree.MergeTwoBinaryTrees(),
+                new LeetCode.PalindromeLinkedList(),
+                new LeetCode.BestStockPrice(),
+                new LeetCode.BinaryTree.MaximumDepthBinaryTree(),
+                new LeetCode.BinaryTree.MinimumDepthBinaryTree(),
+                new LeetCode.BinaryTree.SameBinaryTree(),
+                new LeetCode.BinaryTree.PreOrderBinaryTree(),
+                new LeetCode.BinaryTree.InOrderBinaryTree(),
+                new LeetCode.BinaryTree.PostOrderBinaryTree(),
+                new LeetCode.BinaryTree.InvertBinaryTree(),
+                new LeetCode.BinaryTree.BinaryTreeDiameter(),
+                new LeetCode.BinaryTree.MergeTwoBinaryTrees(),
                 new LeetCode.BinaryTree.BalancedBinaryTree(),
             ];
 
@@ -41,17 +53,17 @@ namespace C_CourseCodeInterview
             Console.WriteLine("Multidimensional arrays lesson");
             Console.WriteLine();
             IExecution[] multiDimensionalArrays = [
-                
-                //new MultidimensionalArrays.Class1(),
-                //new MultidimensionalArrays.Class2(),
-                //new MultidimensionalArrays.Class3(),
-                //new MultidimensionalArrays.Class4(),
-                //new MultidimensionalArrays.Practice1(),
-                //new MultidimensionalArrays.Practice2(),
-                //new MultidimensionalArrays.Practice3(),
-                //new MultidimensionalArrays.Practice4(),
-                //new MultidimensionalArrays.Practice5(),
-                //new MultidimensionalArrays.Class5(),
+
+                new MultidimensionalArrays.Class1(),
+                new MultidimensionalArrays.Class2(),
+                new MultidimensionalArrays.Class3(),
+                new MultidimensionalArrays.Class4(),
+                new MultidimensionalArrays.Practice1(),
+                new MultidimensionalArrays.Practice2(),
+                new MultidimensionalArrays.Practice3(),
+                new MultidimensionalArrays.Practice4(),
+                new MultidimensionalArrays.Practice5(),
+                new MultidimensionalArrays.Class5(),
                 new MultidimensionalArrays.Practice6(),
             ];
 
